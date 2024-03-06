@@ -136,8 +136,9 @@ html, body {
     transform-origin: center left;
   }
   .present-box > .side.top {
+    margin-top: -41px;
     transform: rotateX(-90deg) translateY(-100px);
-    transform-origin: top;
+    transform-origin: top center;
     transform-style: preserve-3d;
     perspective: 100px;
     text-align: center;
